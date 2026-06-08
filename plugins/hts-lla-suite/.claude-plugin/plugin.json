@@ -1,0 +1,19 @@
+{
+  "name": "hts-lla-suite",
+  "version": "1.0.0",
+  "description": "HTS Liquor Licence Advisor suite \u2014 section-by-section PIA drafting, harm minimisation, two-stage pre-delivery gate (citation + compliance), document builder, consumer survey drafter, precedent advisor, new-project setup, regulatory fact-refresh, propagation reminder, and WA small bar drafting standards. Jurisdiction-aware (WA + NSW).",
+  "author": {
+    "name": "Ryan Lambson",
+    "email": "admin@hospitalitytotalservices.com.au"
+  },
+  "keywords": [
+    "liquor",
+    "licensing",
+    "PIA",
+    "small bar",
+    "WA",
+    "NSW",
+    "DLGSC",
+    "harm minimisation"
+  ]
+}

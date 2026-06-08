@@ -1,0 +1,17 @@
+{
+  "name": "hts-utilities",
+  "version": "1.0.0",
+  "description": "Cross-business utility skills: tracked-document editing (R.Lambson tracked changes), SurveyMonkey deployment, AI video prompt building (Seedance), and the skill-builder system for authoring new skills.",
+  "author": {
+    "name": "Ryan Lambson",
+    "email": "admin@hospitalitytotalservices.com.au"
+  },
+  "keywords": [
+    "tracked changes",
+    "docx",
+    "surveymonkey",
+    "video prompt",
+    "skill builder",
+    "utilities"
+  ]
+}

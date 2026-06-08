@@ -1,0 +1,51 @@
+# stale-citations.yaml — regulatory-fact-refresh master registry
+#
+# Hard-baked, cross-domain registry of known stale or conditionally-changed
+# regulatory facts. Read at runtime from this bundled file — never from Google
+# Drive.
+#
+# Verify-before-seed rule: an entry is added ONLY after its current value has
+# been confirmed against a primary source. Entries inherited from another skill
+# without independent verification must record that provenance explicitly.
+#
+# Schema per entry:
+#   id:             short kebab-case identifier
+#   jurisdiction:   WA | NSW | Cwlth | ...
+#   domain:         liquor | planning | food-safety | ohs | ...
+#   instrument:     the authoritative instrument
+#   provisions:     list of affected provisions
+#   old_value:      the superseded value (what a stale document will say)
+#   new_value:      the current value
+#   status:         STALE | CHANGED-CONDITIONAL
+#   condition:      required for CHANGED-CONDITIONAL — the condition that governs
+#   primary_source: URL or citation of the source verified
+#   verified_on:    ISO date of verification
+#   provenance:     who verified, or the skill an entry was inherited from
+
+entries:
+  - id: wa-small-bar-capacity
+    jurisdiction: WA
+    domain: liquor
+    instrument: Liquor Control Act 1988 (WA)
+    provisions: [s.41A, s.41B]
+    old_value: "120 persons (patrons plus staff)"
+    new_value: "150 persons (statutory ceiling)"
+    status: CHANGED-CONDITIONAL
+    condition: >
+      Statutory ceiling raised from 120 to 150 by the Liquor Control Amendment
+      Act 2025 (s.9, amending ss.41A and 41B). A specific venue's licensed
+      capacity remains 120 until an increase to 150 is applied for (Form 11) and
+      granted on a safety assessment. LPS-level 'Small Bar' definitions may still
+      read 120 pending a scheme amendment (scheme lag). Do not swap 120 to 150;
+      state the ceiling and the venue-level condition.
+    primary_source: >
+      Liquor Control Act 1988 (WA) ss.41A, 41B, consolidated text at
+      legislation.wa.gov.au; amendment confirmed via the DLGSC liquor-legislation
+      page (s.9, Liquor Control Amendment Act 2025).
+    verified_on: 2026-06-03
+    provenance: "Claude + Ryan, regulatory-fact-refresh Phase 2, session 2026-06-03"
+
+  # NOTE: the NSW s.48 -> s.72I renaming referenced by lla-citation-checker is
+  # NOT yet independently verified here. When added, record it with
+  #   provenance: "inherited from lla-citation-checker; not independently verified"
+  # until confirmed against the consolidated Liquor Act 2007 (NSW).

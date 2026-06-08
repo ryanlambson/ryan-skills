@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+*.tmp
+~$*
+.venv/
+__pycache__/
+.env
+*.env
+secrets.*
+*secret*
+*credentials*

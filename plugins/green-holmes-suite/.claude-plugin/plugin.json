@@ -1,0 +1,15 @@
+{
+  "name": "green-holmes-suite",
+  "version": "1.0.0",
+  "description": "Green Holmes content & product suite \u2014 digital product development and the Canva brand/design workflow. (green-holmes-publish is intentionally NOT included: it carries API credentials and is kept inside Claude as a local personal skill only.)",
+  "author": {
+    "name": "Ryan Lambson",
+    "email": "admin@hospitalitytotalservices.com.au"
+  },
+  "keywords": [
+    "green holmes",
+    "content",
+    "canva",
+    "digital product"
+  ]
+}

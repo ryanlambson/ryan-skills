@@ -1,0 +1,38 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# SketchUp
+*.skp
+*.skb
+*.backup
+
+# Build artifacts
+*.pyc
+__pycache__/
+.pytest_cache/
+
+# Local development
+.venv/
+venv/
+.env
+
+# Temporary
+.tmp/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Outputs (renders, exports)
+renders/
+exports/
+*.png
+*.jpg
+*.mp4

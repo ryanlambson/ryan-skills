@@ -1,0 +1,45 @@
+name: hts-spatial-suite
+displayName: HTS Spatial Suite
+version: 1.0.0
+author: Ryan Lambson (HTS / Green Holmes)
+description: >
+  Turn 2D hospitality floor plans into photorealistic, client-facing visualisations.
+  Pipeline: plan intake → 3D model (Trimble SketchUp MCP) → clean line-work view →
+  Nano Banana image-to-image render (Higgsfield). Built to sell the concept, not certify it.
+
+skills:
+  - name: visualising-hospitality-spaces
+    path: skills/visualising-hospitality-spaces/SKILL.md
+  - name: modelling-hospitality-plans
+    path: skills/modelling-hospitality-plans/SKILL.md
+  - name: preparing-render-views
+    path: skills/preparing-render-views/SKILL.md
+  - name: rendering-with-nano-banana
+    path: skills/rendering-with-nano-banana/SKILL.md
+
+knowledge:
+  - path: knowledge/hospitality-standards.md
+    description: Jurisdiction-swappable defaults (US ADA / AU NCC + AS 1428.1)
+  - path: knowledge/materials-semantic-template.md
+    description: Semantic colour map + Universal Prompt scaffold
+
+dependencies:
+  - name: Trimble SketchUp MCP
+    required: true
+    description: Core 3D modeling via build_model
+  - name: Higgsfield MCP
+    required: true
+    description: Nano Banana rendering (nano_banana_2 iterate, nano_banana_pro 4K final)
+  - name: Google Drive
+    required: false
+    description: Backup and distribution of renders
+
+targets:
+  - type: hospitality
+    venue: guest rooms, restaurants, bars, public spaces
+  - region: US (ADA), AU (NCC + AS 1428.1)
+
+v2_deferred:
+  - spatial-compliance skill (verified compliance checks)
+  - Post-processing (inpaint, upscale, landscaping, video)
+  - Meshy 3D / Tripo3D mesh generation from renders

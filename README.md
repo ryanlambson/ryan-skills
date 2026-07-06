@@ -8,7 +8,7 @@ installable across devices.
 
 | Plugin | Skills |
 |---|---|
-| `hts-lla-suite` | lla-gpt, lla-pia-drafter, lla-harm-minimisation, lla-citation-checker, lla-compliance-checker, lla-document-builder, lla-consumer-survey-drafter, lla-precedent-advisor, lla-new-project-setup, regulatory-fact-refresh, propagation-reminder, hts-small-bar-standards |
+| `hts-lla-suite` | lla-gpt, lla-pia-drafter, lla-harm-minimisation, lla-citation-checker, lla-compliance-checker, lla-document-builder, lla-consumer-survey-drafter, lla-precedent-advisor, lla-new-project-setup, regulatory-fact-refresh, propagation-reminder, hts-small-bar-standards, lla-writing-conventions, lla-stakeholder-brief |
 | `green-holmes-suite` | green-holmes-product, green-holmes-canva |
 | `hts-utilities` | tracked-document-editor, surveymonkey-transposer, video-prompt-builder, skill-builder |
 

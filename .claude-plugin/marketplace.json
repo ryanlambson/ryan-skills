@@ -9,7 +9,7 @@
     "version": "1.0.0"
   },
   "plugins": [
-    { "name": "hts-lla-suite", "source": "./plugins/hts-lla-suite", "description": "HTS Liquor Licence Advisor suite: PIA drafting, harm minimisation, two-stage pre-delivery gate (citation + compliance), document builder, consumer surveys, precedent advisor, project setup, fact-refresh, propagation reminder, and small bar drafting standards.", "version": "1.0.0", "category": "liquor-licensing" },
+    { "name": "hts-lla-suite", "source": "./plugins/hts-lla-suite", "description": "HTS Liquor Licence Advisor suite: PIA drafting, harm minimisation, two-stage pre-delivery gate (citation + compliance), document builder, consumer surveys, precedent advisor, project setup, fact-refresh, propagation reminder, small bar drafting standards, writing conventions, and pre-lodgement stakeholder briefs.", "version": "1.0.0", "category": "liquor-licensing" },
     { "name": "green-holmes-suite", "source": "./plugins/green-holmes-suite", "description": "Green Holmes content & product: digital product development and Canva brand/design workflow. (Publishing skill with API keys is kept inside Claude only, not in this repo.)", "version": "1.0.0", "category": "content-marketing" },
     { "name": "hts-utilities", "source": "./plugins/hts-utilities", "description": "Cross-business utilities: tracked-document editing, SurveyMonkey deployment, AI video prompt building, and the skill-builder authoring system.", "version": "1.0.0", "category": "utilities" }
   ]

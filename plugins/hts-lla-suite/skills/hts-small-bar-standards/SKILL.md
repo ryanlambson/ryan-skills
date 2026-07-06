@@ -86,7 +86,7 @@ State the causation, do not merely assert continuity:
 
 Use **concrete, real detail** (e.g. "contemporary, modern Australian food, including share
 plates and lighter, healthier options") rather than generic "quality meals" — supports
-food-focused harm minimisation and reads as a genuine hospitality offer.
+the harm minimisation and amenity case and reads as a genuine hospitality offer.
 
 ## 7. Normalise the use
 

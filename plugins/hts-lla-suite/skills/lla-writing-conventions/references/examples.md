@@ -10,13 +10,19 @@ Worked rewrites for each writing convention. Use these as the model when correct
 - Before: The venue sits adjacent to the main retail strip.
 - After: The venue is situated adjacent to the main retail strip.
 
-## "food-led" → hospitality
+## "food-led" / "food-focused" → hospitality
 
 - Before: The applicant proposes a food-led venue with ancillary liquor service.
-- After: The applicant proposes a hospitality venue with ancillary liquor service.
+- After: The applicant proposes a hospitality venue offering a full liquor service alongside a substantial dining offer.
 
 - Before: This is a food led offering, not a tavern.
 - After: This is a hospitality offering, not a tavern.
+
+- Before: The premises will operate as a food-focused small bar.
+- After: The premises will operate as a hospitality small bar.
+
+- Before: The proposal delivers a food focused environment supporting responsible service.
+- After: The proposal delivers a hospitality environment supporting responsible service.
 
 ## "need" → requirement
 

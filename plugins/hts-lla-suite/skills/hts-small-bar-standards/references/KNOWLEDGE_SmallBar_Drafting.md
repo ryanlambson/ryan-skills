@@ -75,7 +75,7 @@ This is the central planning argument for a format-only change of use and must b
 
 Use **concrete, real detail** rather than generic "quality meals" — e.g. "contemporary,
 modern Australian food, including share plates and lighter, healthier options". Specific
-food detail supports food-focused harm minimisation and amenity, and reads as a genuine
+food detail supports the harm minimisation and amenity case, and reads as a genuine
 hospitality offer rather than a drinking-focused venue.
 
 ## 7. Normalise the use

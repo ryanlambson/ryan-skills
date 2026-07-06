@@ -1,11 +1,11 @@
 ---
 name: lla-writing-conventions
-description: Apply HTS house writing conventions to liquor licensing documents (PIAs, submissions, and supporting reports). Use whenever drafting, editing, or reviewing any liquor licensing document, Public Interest Assessment, or PIA section so banned terms are substituted, the standard CCTV wording is applied, and em-dashes are removed from paragraph text. Triggers include "PIA", "liquor licence submission", "apply house style", "check the wording", or producing any Hospitality Total Services licensing deliverable.
+description: Apply HTS house writing conventions to liquor licensing documents (PIAs, submissions, DA/Change of Use submissions, and supporting reports). Use whenever drafting, editing, or reviewing any liquor licensing document, Public Interest Assessment, or PIA section so banned terms are substituted, the standard CCTV wording is applied, and em-dashes are removed from paragraph text. Triggers include "PIA", "liquor licence submission", "apply house style", "check the wording", or producing any Hospitality Total Services licensing deliverable.
 ---
 
 # LLA Writing Conventions
 
-House writing rules for all Hospitality Total Services (HTS) liquor licensing documents — Public Interest Assessments, submissions, and supporting reports. Apply these rules at two points: while drafting new text, and as a review pass over any draft (including text not written in this session) before delivery.
+House writing rules for all Hospitality Total Services (HTS) liquor licensing documents — Public Interest Assessments, submissions, DA/Change of Use submissions, and supporting reports. Apply these rules at two points: while drafting new text, and as a review pass over any draft (including text not written in this session) before delivery.
 
 ## How to apply
 
@@ -20,12 +20,13 @@ Replace each banned term with its required substitute. Match all grammatical for
 | Banned term | Required substitute |
 | --- | --- |
 | sits (and "sit", "sitting" when describing location) | located or situated |
-| food-led (and "food led") | hospitality |
+| food-led, food-focused (and "food led", "food focused") | hospitality |
 | need (noun or verb) | requirement |
 | community | consumer |
 
 Notes on judgement:
 
+- "food-led" / "food-focused" — the rationale, and the middle ground to hold: these terms invite the licensing authority to treat food as the venue's defining feature, which can prompt conditions tying liquor service to meals and confining the licence. Every application is first a liquor licence application run for a commercial hospitality business. Give concrete food detail where it supports harm minimisation and amenity, but describe the venue as a hospitality offer, never frame liquor service as ancillary or subordinate to dining (except where quoting the statutory small bar definition), and never volunteer wording that would support a liquor-with-meals condition.
 - "sits" — use this rule only where the word describes where something is positioned (e.g. "the premises sits within the town centre" becomes "the premises is located within the town centre" or "is situated within the town centre"). Pick "located" or "situated" by readability. Do not alter unrelated idioms.
 - "need" — recast the sentence so "requirement" fits grammatically. "The applicant needs to demonstrate" becomes "The applicant is required to demonstrate"; "there is a need for" becomes "there is a requirement for".
 - "community" — substitute with "consumer" throughout. Where the original plural "communities" appears, use "consumers". Preserve the meaning of the sentence after substitution.
@@ -55,7 +56,8 @@ Also remove "spaced en-dash" substitutes ( – ) used as sentence punctuation in
 Before delivering any licensing document, confirm:
 
 - [ ] No instance of "sits" / "sit" / "sitting" used to describe location remains; each is now "located" or "situated".
-- [ ] No "food-led" / "food led" remains; replaced with "hospitality".
+- [ ] No "food-led" / "food led" / "food-focused" / "food focused" remains; replaced with "hospitality".
+- [ ] No wording frames liquor service as ancillary or subordinate to dining, or would support a liquor-with-meals condition (statutory quotes excepted).
 - [ ] No "need" / "needs" / "needing" remains as a general term; replaced with "requirement" forms and grammar corrected.
 - [ ] No "community" / "communities" remains; replaced with "consumer" / "consumers".
 - [ ] CCTV is described as located at the entry and exit points of the premises only.

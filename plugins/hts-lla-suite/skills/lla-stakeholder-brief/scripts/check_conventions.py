@@ -9,6 +9,7 @@ Depends : Python 3 standard library only. No network access. Reads only the file
 
 Checks
   1. Banned terms  : "sits" (flag for locational review), "food-led"/"food led",
+                     "food-focused"/"food focused",
                      "need"/"needs" (word), "community"/"communities" (word)
   2. Punctuation   : em-dash (U+2014) anywhere; spaced en-dash " – " used as
                      sentence punctuation
@@ -31,7 +32,7 @@ PROTECTED = [
 
 CHECKS = [
     ("BANNED sits (review: locational use?)", re.compile(r"\bsits\b", re.I)),
-    ("BANNED food-led", re.compile(r"\bfood[- ]led\b", re.I)),
+    ("BANNED food-led/food-focused", re.compile(r"\bfood[- ](?:led|focused)\b", re.I)),
     ("BANNED need/needs", re.compile(r"\bneeds?\b", re.I)),
     ("BANNED community/communities", re.compile(r"\bcommunit(?:y|ies)\b", re.I)),
     ("EM-DASH in text", re.compile(r"—")),
